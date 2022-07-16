@@ -1,13 +1,13 @@
 {
-  "name": "falauncher",
-  "version": "0.0.1",
-  "productName": "Falauncher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "lightspeedclient",
+  "version": "0.9.0",
+  "productName": "Lightspeed Client",
+  "description": "A Minecraft Client Made For The Best Playing Experience.",
+  "author": "Falcon (Falcon#6666)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/Falcon-MC/Lightspeed-Client",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/Falcon-MC/Lightspeed-Client/issues"
   },
   "private": true,
   "main": "index.js",
@@ -48,6 +48,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/Falcon-MC/Lightspeed-Client.git"
   }
 }

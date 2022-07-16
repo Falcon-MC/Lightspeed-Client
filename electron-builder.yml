@@ -1,8 +1,8 @@
-appId: 'Falauncher'
-productName: 'Falauncher'
+appId: 'Lightspeed Client'
+productName: 'Lightspeed Client'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2022 Daniel Scalzi'
+copyright: 'Copyright © 2016-2022 Falcon'
 
 asar: true
 compression: 'maximum'
