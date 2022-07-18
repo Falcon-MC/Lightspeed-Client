@@ -218,37 +218,37 @@ const refreshMojangStatuses = async function(){
     document.getElementById('mojang_status_icon').style.color = MojangRestAPI.statusToHex(status)
 }
 
-const refreshServerStatus = async function(fade = false){
-    loggerLanding.log('Refreshing Server Status')
-    const serv = DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
+// const refreshServerStatus = async function(fade = false){
+//     loggerLanding.log('Refreshing Server Status')
+//     const serv = DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
 
-    let pLabel = 'SERVER'
-    let pVal = 'OFFLINE'
+//     let pLabel = 'SERVER'
+//     let pVal = 'OFFLINE'
 
-    try {
-        const serverURL = new URL('my://' + serv.getAddress())
+//     try {
+//         const serverURL = new URL('my://' + serv.getAddress())
 
-        const servStat = await getServerStatus(47, serverURL.hostname, Number(serverURL.port))
-        console.log(servStat)
-        pLabel = 'PLAYERS'
-        pVal = servStat.players.online + '/' + servStat.players.max
+//         const servStat = await getServerStatus(47, serverURL.hostname, Number(serverURL.port))
+//         console.log(servStat)
+//         pLabel = 'PLAYERS'
+//         pVal = servStat.players.online + '/' + servStat.players.max
 
-    } catch (err) {
-        loggerLanding.warn('Unable to refresh server status, assuming offline.')
-        loggerLanding.debug(err)
-    }
-    if(fade){
-        $('#server_status_wrapper').fadeOut(250, () => {
-            document.getElementById('landingPlayerLabel').innerHTML = pLabel
-            document.getElementById('player_count').innerHTML = pVal
-            $('#server_status_wrapper').fadeIn(500)
-        })
-    } else {
-        document.getElementById('landingPlayerLabel').innerHTML = pLabel
-        document.getElementById('player_count').innerHTML = pVal
-    }
+//     } catch (err) {
+//         loggerLanding.warn('Unable to refresh server status, assuming offline.')
+//         loggerLanding.debug(err)
+//     }
+//     if(fade){
+//         $('#server_status_wrapper').fadeOut(250, () => {
+//             document.getElementById('landingPlayerLabel').innerHTML = pLabel
+//             document.getElementById('player_count').innerHTML = pVal
+//             $('#server_status_wrapper').fadeIn(500)
+//         })
+//     } else {
+//         document.getElementById('landingPlayerLabel').innerHTML = pLabel
+//         document.getElementById('player_count').innerHTML = pVal
+//     }
     
-}
+// }
 
 refreshMojangStatuses()
 // Server Status is refreshed in uibinder.js on distributionIndexDone.
