@@ -737,7 +737,7 @@ function dlAsync(login = true){
     // Begin Validations
 
     // Validate Forge files.
-    setLaunchDetails('Loading server information..')
+    setLaunchDetails('Loading version information..')
 
     refreshDistributionIndex(true, (data) => {
         onDistroRefresh(data)
