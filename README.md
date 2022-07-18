@@ -3,11 +3,11 @@
 <h1 align="center">Lightspeed Client</h1>
 
 
-[<p align="center"><img src="https://img.shields.io/github/workflow/status/dscalzi/HeliosLauncher/Build.svg?style=for-the-badge" alt="gh actions">](https://github.com/dscalzi/HeliosLauncher/actions) [<img src="https://img.shields.io/github/downloads/dscalzi/HeliosLauncher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/dscalzi/HeliosLauncher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="winter-is-coming"></p>
+[<p align="center"><img src="https://img.shields.io/github/workflow/status/Falcon-MC/Lightspeed-Client/Build.svg?style=for-the-badge" alt="gh actions">](https://github.com/Falcon-MC/Lightspeed-Client/actions) [<img src="https://img.shields.io/github/downloads/Falcon-MC/Lightspeed-Client/total.svg?style=for-the-badge" alt="downloads">](https://github.com/Falcon-MC/Lightspeed-Client/releases)
 
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+<p align="center">The Comfort Of Every Other Client, With Maximum Flexability.</p>
 
-![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
+![Screenshot 1](https://i.imgur.com/jhMgGGO.png)
 
 ## Features
 
@@ -43,7 +43,7 @@ If you download from the [Releases](https://github.com/Falcon-MC/Lightspeed-Clie
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
-| macOS x64 | `Helios-Launcher-setup-VERSION-x64.dmg` |
-| macOS arm64 | `Helios-Launcher-setup-VERSION-arm64.dmg` |
-| Linux x64 | `Helios-Launcher-setup-VERSION.AppImage` |
+| Windows x64 | `Lightspeed Client-setup-VERSION.exe` |
+| macOS x64 | `Lightspeed Client-setup-VERSION-x64.dmg` |
+| macOS arm64 | `Lightspeed Client-setup-VERSION-arm64.dmg` |
+| Linux x64 | `Lightspeed Client-setup-VERSION.AppImage` |
