@@ -43,5 +43,5 @@ If you download from the [Releases](https://github.com/Falcon-MC/Lightspeed-Clie
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `Lightspeed-Client-setup-VERSION.exe` |
-| Linux x64 | `Lightspeed-Client-setup-VERSION.AppImage` |
+| Windows x64 | `Lightspeed.Client-setup-VERSION.exe` |
+| Linux x64 | `Lightspeed.Client-setup-VERSION.AppImage` |
