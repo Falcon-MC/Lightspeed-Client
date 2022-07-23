@@ -5,9 +5,10 @@
 
 [<p align="center"><img src="https://img.shields.io/github/workflow/status/Falcon-MC/Lightspeed-Client/Build.svg?style=for-the-badge" alt="gh actions">](https://github.com/Falcon-MC/Lightspeed-Client/actions) [<img src="https://img.shields.io/github/downloads/Falcon-MC/Lightspeed-Client/total.svg?style=for-the-badge" alt="downloads">](https://github.com/Falcon-MC/Lightspeed-Client/releases)
 
-Download The Set-Up [Here](https://github.com/Falcon-MC/Lightspeed-Client/releases/download/Alpha/Lightspeed.Client-setup-0.0.1.exe)
-
 <p align="center">The Comfort Of Every Other Client, With Maximum Flexability.</p>
+
+
+<p align="center">Download The Set-Up [Here](https://github.com/Falcon-MC/Lightspeed-Client/releases/download/Alpha/Lightspeed.Client-setup-0.0.1.exe)
 
 ![Screenshot 1](https://i.imgur.com/jhMgGGO.png)
 
