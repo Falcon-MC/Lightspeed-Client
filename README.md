@@ -30,20 +30,3 @@ This is not an exhaustive list. Download and install the launcher to gauge all i
 
 
 #### Like the project? Leave a ⭐ star on the repository!
-
-## Downloads
-
-You can download from [GitHub Releases](https://github.com/Falcon-MC/Lightspeed-Client/releases)
-
-#### Latest Release
-
-[![](https://img.shields.io/github/v/release/Falcon-MC/Lightspeed-Client.svg?style=flat-square)](https://github.com/Falcon-MC/Lightspeed-Client/releases/latest)
-
-
-**Supported Platforms**
-
-If you download from the [Releases](https://github.com/Falcon-MC/Lightspeed-Client/releases) tab, select the installer for your system.
-
-| Platform | File |
-| -------- | ---- |
-| Windows x64 | `Lightspeed.Client-setup-VERSION.exe` |
